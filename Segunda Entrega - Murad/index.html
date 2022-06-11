@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simulador Interactivo</title>
+  </head>
+  <body>
+    <h1 class="titulo">Simulador de Crédito</h1>
+    <input class="ingresarMonto" id="ingresarMonto" type="number">
+    
+    <div class="alineador">
+      <button id="m12" class="btn">Simular Crédito a 12 meses</button>
+      <button id="m24" class="btn">Simular Crédito a 24 meses</button>
+      <button id="m36" class="btn">Simular Crédito a 36 meses</button>
+      <button id="m48" class="btn">Simular Crédito a 48 meses</button>
+      <button id="m60" class="btn">Simular Crédito a 60 meses</button>
+      <p class="total">Total a pagar:</p>
+      <p id="contenedor" class="contenedor"></p>
+      <p class="cuotas">Cuota mensual:</p>
+      <p id="cuota" class="cuota"></p>
+      
+    </div>
+
+    <script src="js.js"></script>
+  </body>
+</html>
